@@ -67,6 +67,9 @@ git push origin cam_cesm2_1_rel55-smooth_bb
 ### .DS_Store
 
 ```
-
+cd /Users/user/Desktop/YuanSun-UoM/CAMdev
+git status
+find . -name '.DS_Store' -type f -delete
+echo .DS_Store >> ./.gitignore
 ```
 
